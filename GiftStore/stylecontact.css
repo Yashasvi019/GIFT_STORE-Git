@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+font-family:Monotype Corsiva ; 
+color : red ; 
+text-align: center ;
+font-size: 3rem;
+margin-bottom:0px;
+padding-bottom:4px;
+margin-top: 40px;
+}	
+
+hr {
+	margin: 0px 40% 0px 40%;
+	border-top: 2.5px dotted #a10e0e;
+}
+
+.row {
+	text-align:center;
+}
+
+h3 {
+margin-left: 180px ; 
+margin-top: 70px; 
+
+}
+
+p {
+	margin-left: 180px ; 
+	margin-top:0px; 
+	color: red; 
+}
+
+a {
+	color: red;
+	text-decoration: none;
+}
+
+a:hover {
+	opacity: 0.7;
+	text-decoration: underline;
+}
+
+.zoom:hover {
+	transform: scale(1.2);
+}

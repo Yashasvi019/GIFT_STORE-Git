@@ -1,0 +1,60 @@
+* {
+	margin:0;
+	padding:0;
+}
+.DisplayName {
+	text-align:center; 
+	color:red; 
+	margin-top:50px; 
+	font-size:2rem; 
+	text-decoration:underline 2px wavy black; 
+	font-family:'Satisfy', cursive;
+}
+.fd{
+    width: 25%;
+    height: 20%;
+    margin-top: 50px;
+	margin-bottom:20px;
+    color: #2b2120;
+    background: #f28377;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+	margin-left:36%;
+	text-decoration:underline 2px wavy black; 
+}
+
+.label{
+    padding: 10px;
+    margin-top:50px;
+	margin-bottom:30px;
+	margin-left:200px;
+	line-height: 150%;
+	display:block;
+	width:20%;
+    text-align: center;
+    border: 1px solid black;
+    background: #71d1a6;
+    border-radius: 5px;
+    color: white;
+}
+.form {
+	margin-left:200px;
+}
+
+.button {
+    margin: 50px auto 5px 40%;
+    padding: 20px;
+    color: white;
+    background: #38b088;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+button:hover {
+  opacity: 0.7;
+    background-color: #5cdb97;
+}
+textarea .form {
+	margin-top:400px;
+}

@@ -1,0 +1,115 @@
+* {
+	margin: 0px;
+	padding:0px;
+}
+
+.menu1
+{
+	font-size: 20px;
+	color:white;
+	background-color: white;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+	list-style: none;
+}
+
+.image {
+	margin-left: 40px;
+	margin-top: 10px;
+	margin-right:200px;
+	width: 130px;
+    height: 90px;
+}
+
+.image:hover{
+-webkit-transform: scale(1.2);
+}	
+
+input {
+	padding:8px;
+  font-size: 17px;
+  border: solid grey;
+  width:230px;
+  width:230px;
+  width:230px;
+  margin-top: 20px;
+margin-right:0px;
+margin-left:0px;
+}
+
+button {
+ 
+  padding: 8px 10px;
+  background: #c2bebe;
+  font-size: 17px;
+  border: solid black;
+  cursor: pointer;
+  margin-right:230px;
+  margin-left:0px;
+}
+
+button:hover {
+  background: #ccc;
+}
+
+.submenu
+{
+	position:relative;
+	font-size: 20px;
+	color:white;
+	background-color: white;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+	list-style: none;
+	z-index:1;
+}
+
+.submenu ul ul{
+        position: absolute;
+ }
+ 
+.submenu ul li a 
+{
+	text-decoration: none;
+	display: block;
+	font-size: 1.2rem;
+	color: red;
+	margin-left:5px;
+	margin-right:15px;
+}
+
+.submenu ul li 
+{
+	position: relative;
+	display:block;
+	text-align: center;
+	float:left;
+	margin-top: 20px;
+	background-color: cream;
+}
+
+.submenu ul li a:hover 
+{
+	color: black ;
+	
+}
+.submenu ul li ul
+{
+background-color:white;
+width: 150px;
+}
+.submenu ul li ul li{
+	display:none;
+	float:none;
+	
+}
+.submenu ul li ul li a
+{
+	font-size:1rem;
+}
+.submenu ul li:hover ul li{
+	display:block;
+	color: black;
+}

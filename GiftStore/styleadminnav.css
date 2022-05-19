@@ -1,0 +1,51 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.submenu h1{
+	color:red;
+	font-family: 'Potta One', cursive;
+	font-size: 1.8rem;
+	margin-left:100px;
+	margin-top:10px;
+}
+.submenu h1:hover {
+	-webkit-transform: scale(1.1);
+}
+.submenu
+{
+	position:relative;
+	font-size: 20px;
+	color:white;
+	background-color: white;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+	list-style: none;
+}
+
+.submenu ul li a 
+{
+	text-decoration: none;
+	display: block;
+	font-size: 1.2rem;
+	color: red;
+	margin-left:10px;
+	
+}
+
+.submenu ul li 
+{
+	position: relative;
+	display:block;
+	text-align: center;
+	float:left;
+	margin-top: 20px;	
+margin-right:40px;
+}
+
+.submenu ul li a:hover 
+{
+	color: black ;
+}

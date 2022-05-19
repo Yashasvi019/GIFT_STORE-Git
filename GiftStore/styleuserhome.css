@@ -1,0 +1,23 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+.name a {
+	color: black;
+	text-align: center;
+	text-transform: capitalize;
+	text-decoration:none;
+	font-family: 'Lobster', cursive;
+	font-size: 1.5rem;
+	font-weight: 5px;
+	padding:6px;
+	margin-left: 40%;
+}
+
+.name {
+margin-top:20px;
+}
+
+.name a:hover {
+font-size: 1.7rem;
+}

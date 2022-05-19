@@ -1,0 +1,60 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.container {
+	margin-top: 50px;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	color: red;
+}
+table, td, th {
+  border: 1px solid black;
+}
+th {
+	padding: 10px;
+}
+table {
+	  
+	text-align: center;
+  
+  border-collapse: collapse;
+}
+td {
+	padding: 2px;
+}
+img {
+	width: 150px;
+	height: 100px;
+	margin:2px;
+}
+.row:hover {
+	background-color:#f5f0f0;
+}
+thead {
+	background-color: red;
+	color: white;
+	}
+.page {
+	font-size: 1.2rem;
+	margin-left: 160px;
+	margin-bottom: 0px;
+	color: red;
+	text-decoration: none;
+}
+a {
+	font-size: 1.2rem;
+	
+	margin-left: auto;
+	margin-bottom: 0px;
+	color: red;
+	text-decoration: none;
+}
+a:hover {
+		color: purple;
+}
+	
